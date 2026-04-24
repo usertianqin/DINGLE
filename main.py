@@ -23,7 +23,7 @@ import math
 import warnings
 warnings.filterwarnings("ignore")
 
-parser = argparse.ArgumentParser(description='Geometer')
+parser = argparse.ArgumentParser(description='DINGLE')
 parser.add_argument('--config_filename', default='config/config_cora_ml_stream.yaml', type=str)
 parser.add_argument('--model', default='gcn', type=str)
 parser.add_argument('--cuda', default='1', type=str)
